@@ -33,7 +33,8 @@ namespace ASPNetMvcDemo
             services.AddMvc();
             services.AddIdentityServer() //for Identity server 4 authentication
              // .AddTemporarySigningCredential() // Can be used for testing until a real cert is available
-            .AddSigningCredential(new X509Certificate2(Path.Combine(".", "certs", "IdentityServer4Auth.pfx")));
+            .AddSigningCredential(new X509Certificate2(Path.Combine(".", "certs", "IdentityServer4Auth.pfx")))
+            .AddInMemoryApiResources(MyApiResourceProvider.GetAllResources());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
