@@ -1,0 +1,8 @@
+/home/mateusz/Projekty/ASPNetMvcDemo/bin/Debug/netcoreapp1.1/ASPNetMvcDemo.deps.json
+/home/mateusz/Projekty/ASPNetMvcDemo/bin/Debug/netcoreapp1.1/ASPNetMvcDemo.runtimeconfig.json
+/home/mateusz/Projekty/ASPNetMvcDemo/bin/Debug/netcoreapp1.1/ASPNetMvcDemo.runtimeconfig.dev.json
+/home/mateusz/Projekty/ASPNetMvcDemo/bin/Debug/netcoreapp1.1/ASPNetMvcDemo.dll
+/home/mateusz/Projekty/ASPNetMvcDemo/bin/Debug/netcoreapp1.1/ASPNetMvcDemo.pdb
+/home/mateusz/Projekty/ASPNetMvcDemo/obj/Debug/netcoreapp1.1/ASPNetMvcDemo.AssemblyInfo.cs
+/home/mateusz/Projekty/ASPNetMvcDemo/obj/Debug/netcoreapp1.1/ASPNetMvcDemo.dll
+/home/mateusz/Projekty/ASPNetMvcDemo/obj/Debug/netcoreapp1.1/ASPNetMvcDemo.pdb
