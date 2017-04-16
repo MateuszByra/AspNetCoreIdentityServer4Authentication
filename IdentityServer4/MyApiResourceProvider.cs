@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using IdentityModel;
 using IdentityServer4.Models;
 
+//http://docs.identityserver.io/en/release/reference/api_resource.html
 public static class MyApiResourceProvider
 {
     public static IEnumerable<ApiResource> GetAllResources()
