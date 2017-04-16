@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -29,7 +31,9 @@ namespace ASPNetMvcDemo
         {
             // Add framework services.
             services.AddMvc();
-            services.AddIdentityServer(); //for Identity server 4 authentication
+            services.AddIdentityServer() //for Identity server 4 authentication
+             // .AddTemporarySigningCredential() // Can be used for testing until a real cert is available
+            .AddSigningCredential(new X509Certificate2(Path.Combine(".", "certs", "IdentityServer4Auth.pfx")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
